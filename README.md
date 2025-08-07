@@ -2,7 +2,7 @@
 <pre>
 
 == Libraries == <hr/>
-libc, libm, libSDL2, libSDL2_image, libSDL2_mixer, libSDL2_ttf
+libc++, libm, libSDL2, libSDL2_image, libSDL2_mixer, libSDL2_ttf
 
 == Tools == <hr/>
 make, g++
