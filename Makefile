@@ -1,6 +1,6 @@
 CC = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -fPIC -Iinclude
-WINDOWS_LDFLAGS = -lm -lmingw32 ./lib/libSDL2.a ./lib/libSDL2main.a ./bin/SDL2.dll
+WINDOWS_LDFLAGS = -lm -lmingw32 ./lib/libSDL2.a ./lib/libSDL2main.a ./lib/libSDL2_ttf.a ./lib/libSDL2_image.a ./bin/SDL2.dll ./bin/SDL2_ttf.dll ./bin/SDL2_image.dll
 
 
 bin/game.exe: src/*
